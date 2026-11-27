@@ -16,8 +16,6 @@ An Agent Skill for implementation-oriented product requirements documents, with 
 
 ## 安装
 
-发布后，将以下 `https://github.com/xinsuoyusui687-commits/prd-generato` 替换为真实 GitHub 仓库地址。
-
 ### Skills CLI
 
 当前已核对的 Skills CLI 需要 Node.js 22.20 或更新版本：
