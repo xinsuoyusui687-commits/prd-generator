@@ -16,20 +16,20 @@ An Agent Skill for implementation-oriented product requirements documents, with 
 
 ## 安装
 
-发布后，将以下 `OWNER/REPO` 替换为真实 GitHub 仓库地址。
+发布后，将以下 `https://github.com/xinsuoyusui687-commits/prd-generato` 替换为真实 GitHub 仓库地址。
 
 ### Skills CLI
 
 当前已核对的 Skills CLI 需要 Node.js 22.20 或更新版本：
 
 ```bash
-npx skills add OWNER/REPO --skill prd-generator
+npx skills add https://github.com/xinsuoyusui687-commits/prd-generato --skill prd-generator
 ```
 
 默认安装到当前项目，并选择要安装的助手。加 `-g` 可安装到用户级别；先查看可发现的技能可以运行：
 
 ```bash
-npx skills add OWNER/REPO --list
+npx skills add https://github.com/xinsuoyusui687-commits/prd-generato --list
 ```
 
 ### Codex 安装请求
@@ -37,7 +37,7 @@ npx skills add OWNER/REPO --list
 目标环境提供 `$skill-installer` 时，可发送：
 
 ```text
-请使用 $skill-installer，从 GitHub 仓库 OWNER/REPO 安装 skills/prd-generator。
+请使用 $skill-installer，从 GitHub 仓库 https://github.com/xinsuoyusui687-commits/prd-generato 安装 skills/prd-generator。
 ```
 
 ### 手动复制
